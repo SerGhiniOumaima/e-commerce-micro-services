@@ -29,7 +29,7 @@ Sécurité :
 
 ![image](https://user-images.githubusercontent.com/96297390/210283595-90a6898b-c57f-4a8a-885c-81a6d6ca9ddc.png)
 
--Vérifier avec jwt :
+-Vérifier le access_token avec jwt :
 
 ![image](https://user-images.githubusercontent.com/96297390/210283781-95e943e7-da0a-40ec-b2e3-623bdc3a3199.png)
 
