@@ -25,7 +25,7 @@ Sécurité :
 
 ![image](https://user-images.githubusercontent.com/96297390/210282133-0aba7d2c-7934-4bc5-848c-4efe78ea92fe.png)
 
-6)Tester avec Postman
+6)Tester avec Postman : En utilisant un username et password
 
 ![image](https://user-images.githubusercontent.com/96297390/210283595-90a6898b-c57f-4a8a-885c-81a6d6ca9ddc.png)
 
