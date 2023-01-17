@@ -30,6 +30,14 @@ Partie 1 : Création des micro-services
 
 Partie 2 : Création d'un client Web Angular
 
+1.Création d'une page d'accueil
+
+![image](https://user-images.githubusercontent.com/96297390/213019250-952c41be-4c49-47c7-96d8-66f3a7e01103.png)
+
+2.Création d'une paage pour afficher les produits
+
+![image](https://user-images.githubusercontent.com/96297390/213019577-3f2216f1-a420-4623-b460-0d8fa38874e3.png)
+
 
 
 Partie 3 : Déploiement du serveur Keycloak
