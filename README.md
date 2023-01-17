@@ -34,9 +34,17 @@ Partie 2 : Création d'un client Web Angular
 
 ![image](https://user-images.githubusercontent.com/96297390/213019250-952c41be-4c49-47c7-96d8-66f3a7e01103.png)
 
-2.Création d'une paage pour afficher les produits
+2.Création d'une page pour afficher les produits
 
-![image](https://user-images.githubusercontent.com/96297390/213019577-3f2216f1-a420-4623-b460-0d8fa38874e3.png)
+![image](https://user-images.githubusercontent.com/96297390/213020766-99458278-7caa-4121-ac81-304cb8d536b7.png)
+
+3.Création d'une page pour afficher les clients 
+
+![image](https://user-images.githubusercontent.com/96297390/213022201-6b97d4ae-c641-4faf-98ed-e8c4c537291a.png)
+
+3.Création d'une page pour afficher les factures pour chaque client
+
+![image](https://user-images.githubusercontent.com/96297390/213027287-05dd8da7-db4c-43c8-ab2e-e80e5ff4fed0.png)
 
 
 
