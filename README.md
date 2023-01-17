@@ -6,16 +6,26 @@ Partie 1 : Création des micro-services
 
 ![image](https://user-images.githubusercontent.com/96297390/213009701-f9c08b14-c6cb-459f-84f5-4d4504c253fb.png)
 
+![image](https://user-images.githubusercontent.com/96297390/213013276-14aa4886-0b41-4ba7-b7ed-f48d7c17aff4.png)
+
+
 2.Créer les micro-services et configurer dynamiquement les routes de la gateway
 
 2.1 Customer Service
 
+![image](https://user-images.githubusercontent.com/96297390/213013806-31d5b08f-7a48-4c71-91ae-aa9e70515811.png)
+
+
 2.2 Inventory Service
+
+![image](https://user-images.githubusercontent.com/96297390/213013920-49043948-49a8-4356-ade3-a53c661e851e.png)
+
 
 2.3 Billing Service
 
+![image](https://user-images.githubusercontent.com/96297390/213014423-168e5fda-aff5-498f-9827-d8f1f01d1b04.png)
 
-
+![image](https://user-images.githubusercontent.com/96297390/213014519-747e28c1-3e7d-4795-ac89-0a5dc9c5b879.png)
 
 
 Partie 2 : Création d'un client Web Angular
