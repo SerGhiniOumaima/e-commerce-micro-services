@@ -19,9 +19,12 @@ public class InventoryServiceApplication {
 	CommandLineRunner start(ProductRepository productRepository, RepositoryRestConfiguration restConfiguration){
 		restConfiguration.exposeIdsFor(Product.class);
 		return args -> {
-			productRepository.save(new Product(null,"Ordinateur",778,12));
-			productRepository.save(new Product(null,"Imprimante",88,124));
-			productRepository.save(new Product(null,"Smatphone",58,77));
+			productRepository.save(new Product(null,"Ordinateur",7780,12));
+			productRepository.save(new Product(null,"Imprimante",2000,124));
+			productRepository.save(new Product(null,"Smatphone",1200,77));
+			productRepository.save(new Product(null,"Ecouteurs",100,200));
+			productRepository.save(new Product(null,"Souris",200,20));
+			productRepository.save(new Product(null,"Clavier",500,20));
 			productRepository.findAll().forEach(product -> {
 				System.out.println(product.getName());
 			});

@@ -1,0 +1,25 @@
+
+I
+front-ecom/src/styles.css,9\0\903a2764e4802cad0cc5addefc8d394a041da2e3
+G
+front-ecom/angular.json,4\9\497affb82eb33396a974d1eeaaa82470084166ad
+P
+ front-ecom/src/app/app.module.ts,b\3\b3756e9e18a3b6e71848f98f5815d64f92b99262
+T
+$front-ecom/src/app/app.component.css,7\6\76b3443f65066e2fbc087143f59da6e77dd13820
+I
+front-ecom/src/index.html,1\8\18b52e0956c15f6c3140fd536946313aba6aeb37
+j
+:front-ecom/src/app/pages/customers/customers.component.css,5\8\58436229450aaa7a5cbf5f6fbcd081ebe80e1234
+X
+(front-ecom/src/app/app-routing.module.ts,4\d\4dd6b88eeac0d2218a64e8296f10484964d2d4a7
+a
+1front-ecom/src/app/pages/home/home.component.html,3\c\3c400b6026ba0e40c9b10f995159cbb84c6ff4df
+S
+#front-ecom/src/app/app.component.ts,a\0\a0621e7ebd22be0b4dba0a398289451c14e6c201
+d
+4front-ecom/src/app/pages/home/home.component.spec.ts,4\7\475b3afcc0d2428e39e7dce94f5f41a9f8ccd9f0
+_
+/front-ecom/src/app/pages/home/home.component.ts,0\5\054f61199cef0cd74403b5dd3150bcd425642790
+U
+%front-ecom/src/app/app.component.html,3\8\388625d5e1e06dcc96c1b5652607011bf9b2dd4b
