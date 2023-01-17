@@ -1,5 +1,29 @@
 # e-commerce-micro-services
-Sécurité :
+
+Partie 1 : Création des micro-services
+
+1.  Création de l'annuaire Eureka Discrovery Service
+
+![image](https://user-images.githubusercontent.com/96297390/213009701-f9c08b14-c6cb-459f-84f5-4d4504c253fb.png)
+
+2.Créer les micro-services et configurer dynamiquement les routes de la gateway
+
+2.1 Customer Service
+
+2.2 Inventory Service
+
+2.3 Billing Service
+
+
+
+
+
+Partie 2 : Création d'un client Web Angular
+
+
+
+Partie 3 : Déploiement du serveur Keycloak
+
 1) Créer un Realm 
 
 
