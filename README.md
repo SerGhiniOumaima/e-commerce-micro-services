@@ -40,7 +40,8 @@ Partie 2 : Création d'un client Web Angular
 
 3.Création d'une page pour afficher les clients 
 
-![image](https://user-images.githubusercontent.com/96297390/213022201-6b97d4ae-c641-4faf-98ed-e8c4c537291a.png)
+![image](https://user-images.githubusercontent.com/96297390/213029260-f0d1a98a-0bdc-476a-b9f7-12697d6e8f75.png)
+
 
 3.Création d'une page pour afficher les factures pour chaque client
 
