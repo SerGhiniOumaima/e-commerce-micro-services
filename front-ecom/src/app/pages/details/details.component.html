@@ -1,0 +1,49 @@
+<div class="container" *ngIf="billDetails">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">Id de la facture: {{ billID }}</div>
+        <div class="card-body text-capitalize">
+          <ul class="list-group">
+            <li class="list-group-item">Id de la facture: {{ billID }}</li>
+            <li class="list-group-item">Date : {{ billDetails.billingDate | date : 'dd/MM/yyyy' }}</li>
+            <li class="list-group-item">Id du client: {{ billDetails.customer.id }}</li>
+            <li class="list-group-item">Nom du client : {{ billDetails.customer.name }}</li>
+            <li class="list-group-item">Email du client: {{ billDetails.customer.email }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">Produits</div>
+        <div class="card-body">
+          <table class="table table-sub-heading-color">
+            <thead>
+            <tr class="bg-body text-black-50">
+              <th class="text-end" scope>Id</th>
+              <th class="text-end" scope>Nom</th>
+              <th class="text-end" scope>Prix</th>
+              <th class="text-end" scope>Quantité</th>
+              <th class="text-end" scope>Total</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let product of billDetails.productItems">
+              <td>{{ product.id }}</td>
+              <td class="text-end">{{ product.productName }}</td>
+              <td class="text-end">{{ product.price | number : '.2'}} dh</td>
+              <td class="text-end">{{ product.quantity }}</td>
+              <td class="text-end">{{product.price*product.quantity}}</td>
+            </tr>
+            <tr class="bg-secondary text-white">
+              <td colspan="5" class="text-start">Total de la commande : </td>
+              <td class="text-lg-end">246380</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
