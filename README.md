@@ -32,7 +32,8 @@ Partie 2 : Création d'un client Web Angular
 
 1.Création d'une page d'accueil
 
-![image](https://user-images.githubusercontent.com/96297390/213019250-952c41be-4c49-47c7-96d8-66f3a7e01103.png)
+![image](https://user-images.githubusercontent.com/96297390/213325540-be5a67dc-758c-4347-8846-85a11928270f.png)
+
 
 2.Création d'une page pour afficher les produits
 
@@ -101,6 +102,13 @@ Partie 3 : Déploiement du serveur Keycloak
 6-2) En utilisant un client id et client secret
 
 ![image](https://user-images.githubusercontent.com/96297390/210444210-1995e7a9-e789-4cf9-bd53-5285c3e44136.png)
+
+7- Keycloak Angular 
+
+![image](https://user-images.githubusercontent.com/96297390/213325644-4c090224-9c87-46e8-8c66-01c8ef3bc023.png)
+
+![image](https://user-images.githubusercontent.com/96297390/213325717-5917fc19-b577-473d-9045-a857d748e474.png)
+
 
 
 
