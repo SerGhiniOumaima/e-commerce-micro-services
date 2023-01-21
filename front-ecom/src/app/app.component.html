@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <nav class="navbar navbar-expand-sm navbar-dark">
   <div class="container-fluid">
     <ul class="navbar-nav">
@@ -11,16 +11,30 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/customers">Clients</a>
       </li>
-      <!--<li class="nav-item dropdown">
+      &lt;!&ndash;<li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Link</a></li>
           <li><a class="dropdown-item" href="#">Another link</a></li>
           <li><a class="dropdown-item" href="#">A third link</a></li>
         </ul>
-      </li>-->
+      </li>&ndash;&gt;
+    </ul>
+    <ul class="navbar-nav float-end">
+      <li class="nav-item">
+        <a class="nav-link" ngIf>
+          <a>{{securityService.profile.firstName}}</a>
+        </a>
+      </li>
+
     </ul>
   </div>
 </nav>
 
-<router-outlet></router-outlet>
+<router-outlet></router-outlet>-->
+
+<app-navbar></app-navbar>
+<div class="mt-5">
+  <br>
+  <router-outlet></router-outlet>
+</div>

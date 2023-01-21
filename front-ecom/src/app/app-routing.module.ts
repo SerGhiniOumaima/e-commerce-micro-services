@@ -5,6 +5,7 @@ import {CustomersComponent} from "./pages/customers/customers.component";
 import {BillsComponent} from "./pages/bills/bills.component";
 import {DetailsComponent} from "./pages/details/details.component";
 import {HomeComponent} from "./pages/home/home.component";
+import {AuthGuard} from "./guards/security.guard";
 
 const routes: Routes = [
   {
@@ -17,13 +18,15 @@ const routes: Routes = [
     path : "products", component : ProductsComponent
   },
   {
-    path : "customers", component : CustomersComponent
+    path : "customers", component : CustomersComponent,
+
   },
   {
     path : "bills/:customerID", component : BillsComponent
   },
   {
-    path : "bill-details/:billID", component : DetailsComponent
+    path : "bill-details/:billID", component : DetailsComponent,
+
   }
 ];
 

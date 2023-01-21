@@ -12,6 +12,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {ReactiveFormsModule} from "@angular/forms";
 import { HomeComponent } from './pages/home/home.component';
 import {KeycloakAngularModule, KeycloakService} from "keycloak-angular";
+import { NavbarComponent } from './navbar/navbar.component';
 
 export function kcFactory(kcService : KeycloakService){
   return ()=>{
@@ -22,7 +23,7 @@ export function kcFactory(kcService : KeycloakService){
         url:"http://localhost:8080"
       },
       initOptions:{
-        onLoad:"login-required",
+        onLoad:"check-sso",
         checkLoginIframe:true
       }
     })
@@ -35,7 +36,8 @@ export function kcFactory(kcService : KeycloakService){
     CustomersComponent,
     ProductsComponent,
     DetailsComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
